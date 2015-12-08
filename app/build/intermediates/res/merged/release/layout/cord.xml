@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/Judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFDEAD"
+        android:text="Nama Jasa" />
+
+    <View 
+        android:id="@+id/Garis"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/Judul"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000" />
+    
+    <FrameLayout
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/Garis"
+        android:id="@+id/FrameArti" >
+        
+        <HorizontalScrollView 
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:id="@+id/horizontalScrollView" >
+            
+            <ScrollView
+                android:id="@+id/verticalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+                
+                <TextView
+                    android:id="@+id/Cord"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textSize="25dp"
+                    android:textColor="#FFDEAD"
+                    android:text="Info Detail" />
+    
+    		</ScrollView>
+    	</HorizontalScrollView>
+    </FrameLayout>
+</RelativeLayout><!-- From: file:/D:/KunciLyrics2/app/src/main/res/layout/cord.xml -->

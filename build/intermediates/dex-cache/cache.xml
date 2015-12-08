@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\KunciLyrics2\app\libs\android-sqlite-asset-helper.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="20f039a3336c18f93cfddfa1a49ce91a55361c40">
+        <dex dex="D:\KunciLyrics2\app\build\intermediates\pre-dexed\debug\android-sqlite-asset-helper-1f846e82145af8f02a5da31d01442e248d0a97a3.jar" />
+    </item>
+    <item
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\KunciLyrics2\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-2205dc014a04cdd7fdcc3c6d3e2e8c6be689c2fc.jar" />
+    </item>
+
+</items>

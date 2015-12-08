@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\KunciLyrics2\app\src\main\assets"><file name="databases/lagubaru.sqlite" path="D:\KunciLyrics2\app\src\main\assets\databases\lagubaru.sqlite"/><file name="databases/laguband.sqlite" path="D:\KunciLyrics2\app\src\main\assets\databases\laguband.sqlite"/></source></dataSet><dataSet config="debug"><source path="D:\KunciLyrics2\app\src\debug\assets"/></dataSet></merger>
